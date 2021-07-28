@@ -8,7 +8,7 @@ export default function Header () {
       <nav className={commonStyles.headerNav}>
         <Link href="/">
           <a>
-            <img src="/logo.svg" alt="Logo space traveling" />
+            <img src="/logo.svg" alt="logo" />
           </a>
         </Link>
       </nav>
