@@ -66,7 +66,7 @@ export default function Home({ postsPagination }: HomeProps) {
                 <a>
                   <h2>{post.data.title}</h2>
                   <h3>{post.data.subtitle}</h3>
-                  <footer>
+                  <footer className={commonStyles.dateAuthorReading}>
                     <span>
                       <FiCalendar />
                       {format(new Date(post.first_publication_date), 'dd MMM yyyy', { locale: ptBR })}
